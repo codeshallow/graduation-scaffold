@@ -13,7 +13,7 @@
             <el-col :span="22"><div style="font-size: 30px; margin-left: 20px;"><a href="/index.html">LOGO</a></div></el-col>
             <el-col :span="2" style="text-align: right">
                 <el-dropdown>
-                    <el-button type="primary" style="margin-right: 10px">{{user.username}}</el-button>
+                    <el-button type="primary" style="margin-right: 10px">{{user.name}}</el-button>
                     <el-dropdown-menu slot="dropdown">
                         <a href="/person.html" style="display:inline-block; padding: 5px 0; width: 100px; text-align: center; color: black">个人信息</a>
                         <a @click="logout" href="#" style="display:block; width: 100px;  text-align: center; color: black">退出</a>
